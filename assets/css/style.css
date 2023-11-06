@@ -1,8 +1,27 @@
+/* Global CSS */
+
 html {
 box-sizing: border-box;
 margin: 10px;
 scroll-behavior: smooth;
 }
+
+a {
+    color: black !important;
+    font-size: 1.3em !important;
+}
+
+h2 {
+    color: black;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: grey;
+}
+
+.avatar, img {
+    filter: grayscale(100%);
+}
+
 
 /* Heading and Nav Bar CSS */
 
@@ -11,11 +30,6 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
     color: black !important;
-}
-
-a {
-    color: black !important;
-    font-size: 1.3em !important;
 }
 
 .container-fluid ul {
@@ -32,9 +46,6 @@ a {
     margin-bottom: 10px;
 }
 
-.avatar, img {
-    filter: grayscale(100%);
-}
 
 /* Jumbotron CSS */
 
@@ -69,14 +80,7 @@ a {
     padding: 10px;
 }
 
-h2 {
-    color: black;
-    border-radius: 10px;
-    font-size: 2em;
-    background-color: grey;
-}
-
-/* About and Portfolio CSS */
+/* About and Skills CSS */
 
 code {
     font-size: 1em;
@@ -113,7 +117,7 @@ a:hover {
 }
 
 .card-placeholder {
-    cursor: not-allowed;
+cursor: not-allowed;
 }
 
 .btn-placeholder {
@@ -125,7 +129,6 @@ cursor: not-allowed;
 @media screen and (max-width: 675px) and (min-width: 300px) {
 
 .jumbotron {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
