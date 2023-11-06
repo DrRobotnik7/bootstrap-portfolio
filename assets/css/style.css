@@ -30,6 +30,8 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
     color: black !important;
+    margin-left: -30px !important;
+    padding-left: 50px !important;
 }
 
 .container-fluid ul {
@@ -81,6 +83,11 @@ h1 {
 }
 
 /* About and Skills CSS */
+
+.subheading {
+    margin-left: -30px !important;
+    padding-left: 50px !important;
+}
 
 code {
     font-size: 1em;
