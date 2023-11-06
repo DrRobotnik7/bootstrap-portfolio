@@ -10,20 +10,16 @@ h1 {
     font-size: 2.5em !important;
     font-weight: bold;
     border-radius: 10px;
+    color: black !important;
 }
 
 a {
     color: black !important;
-    border-bottom: solid grey 5px;
     font-size: 1.3em !important;
 }
 
 .container-fluid ul {
     gap: 20px;
-}
-
-.navbar {
-    padding: 0 !important;
 }
 
 .navbar-brand {
@@ -34,6 +30,10 @@ a {
 
 .nav-link {
     margin-bottom: 10px;
+}
+
+.avatar, img {
+    filter: grayscale(100%);
 }
 
 /* Jumbotron CSS */
@@ -88,7 +88,7 @@ code {
     border-radius: 10px;
 }
 
-/* Nav and Footer hover CSS */
+/* Changes on hover CSS */
 
 a:hover {
     background-color: grey !important;
@@ -101,17 +101,28 @@ a:hover {
     2px 2px #373737,
     3px 3px #373737,
     4px 4px #373737;
-  }
+}
 
+.avatar:hover {
+    filter: grayscale(0%);
+    cursor: crosshair;
+}
+
+.card:hover > img {
+    filter: grayscale(0%);
+}
+
+.card-placeholder {
+    cursor: not-allowed;
+}
+
+.btn-placeholder {
+cursor: not-allowed;
+}
 
 /* Media Query for smaller screen sizes */
 
 @media screen and (max-width: 675px) and (min-width: 300px) {
-
-.container-fluid {
-    flex-direction: column;
-    text-align: center;
-}
 
 .jumbotron {
     display: flex;
