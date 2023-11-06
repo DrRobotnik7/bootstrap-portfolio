@@ -2,13 +2,13 @@
 
 ## Description
 
-This web application was built using Boostrap. It is a portfolio showcasing my completed front-end web development projects. Rather than navigating through repositories on GitHub, this portfolio allows me to easily show my projects to family, friends and prospective employers.
+This web application was built using Bootstrap. It is a portfolio showcasing my completed front-end web development projects. Rather than navigating through repositories on GitHub, this portfolio allows me to easily show my projects to family, friends and prospective employers.
 
 Skills and proficiencies evidenced in my projects:
 
 - Layouts: Flexbox and CSS Grid
 - Languages: HTML5 and CSS3
-- Framworks: Bootstrap 5
+- Frameworks: Bootstrap 5
 
 ## Table of Contents
 
@@ -29,11 +29,11 @@ Click on the links in the navigation bar to smoothly scroll to the relevant sect
 
 Hover over various elements to add some colour to the website and take aim at the nefarious Dr.Robotnik!
 
-Click on the project tiles and you will be directed to the selected web application in a new tab in your browser.
+Click on the buttons in the project cards and you will be directed to the selected web application in a new tab in your browser.
 
-Note that currently only the Horiseon and Prework tiles currently point to a valid URL. The other images are placeholders...for now! The cursor will change to a 'not-allowed' cursor when you hover over these placeholders.
+Note that currently only the Portfolio, Horiseon and Prework cards currently point to a valid URL. The other images are placeholders...for now! The cursor will change to a 'not-allowed' cursor when you hover over these placeholders.
 
-![Jack Johnson Bootstrap Portfolio Screenshot]()
+![Jack Johnson Bootstrap Portfolio Screenshot](/assets/images/bootstrap-portfolio-screenshot.png)
 
 ## Credits
 
