@@ -37,6 +37,8 @@ Note that currently only the Portfolio, Horiseon and Prework cards currently poi
 
 ## Credits
 
+I used code provided by Bootstrap as a template for the header and navigation, jumbotron, portfolio cards and footer.
+
 Many thanks to the EdX team for teaching me the coding skills needed to complete this portfolio and the projects within it. 
 
 I would also like to acknowledge my peers in Sibert-pod-11. We're all on the same learning journey and have helped each other massively during the front-end web development skills boot camp.
