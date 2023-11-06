@@ -43,7 +43,7 @@ a {
     align-items: flex-end;
     justify-content: space-between;
     height: 400px;
-    background-image: url(/assets/images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-size: cover;
     color: black;
     padding: 10px;
@@ -54,7 +54,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url('/assets/images/Dr.Robotnik.png');
+    background-image: url('../images/Dr.Robotnik.png');
     background-size: cover;
     align-self: center;
     position: relative;
