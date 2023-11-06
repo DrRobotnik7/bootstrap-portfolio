@@ -32,10 +32,6 @@ a {
     margin: 10px 0;
 }
 
-.navbar {
-    margin: 0;
-}
-
 .nav-link {
     margin-bottom: 10px;
 }
@@ -91,6 +87,22 @@ code {
     border: solid grey 5px;
     border-radius: 10px;
 }
+
+/* Nav and Footer hover CSS */
+
+a:hover {
+    background-color: grey !important;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737;
+  }
+
 
 /* Media Query for smaller screen sizes */
 
