@@ -1,6 +1,7 @@
 html {
 box-sizing: border-box;
 margin: 10px;
+scroll-behavior: smooth;
 }
 
 /* Heading and Nav Bar CSS */
