@@ -65,7 +65,7 @@ h1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url('../images/Dr.Robotnik.png');
+    background-image: url('../images/dr.robotnik.png');
     background-size: cover;
     align-self: center;
     position: relative;
@@ -140,16 +140,6 @@ cursor: not-allowed;
 
 .ghost {
     display: none;
-}
-
-}
-
-/* Media Query to fix small font on large screen sizes */
-
-@media screen and (min-width: 1400px) {
-
-html {
-    font-size: 24px;
 }
 
 }
